@@ -131,6 +131,10 @@
 ;;(require 'init-twitter)
 ;; (require 'init-mu)
 (require 'init-ledger)
+
+(require 'init-auctex)
+(require 'init-golang)
+
 ;; Extra packages which don't require any configuration
 
 (require-package 'sudo-edit)
@@ -151,7 +155,7 @@
 
 (require 'init-direnv)
 
-
+
 
 ;; Allow access from emacsclient
 (add-hook 'after-init-hook
